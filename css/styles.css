@@ -86,6 +86,9 @@ body {
 
   /* -- color: #ffffff; --*/
 }
+.navigation-link .link.current {
+  color: var(--accent-color);
+}
 
 /* ================ AND COMPONENTS ============== */
 
@@ -155,3 +158,19 @@ body {
 }
 
 /* =============== AND FUTTER ============= */
+
+/* =============== Portfolio ============== */
+.content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+content:hover,
+content:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
