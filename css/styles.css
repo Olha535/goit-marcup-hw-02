@@ -148,18 +148,30 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-
-  /*-- color: #FFFFFF; --*/
+  color: var(--color-white);
 }
 
-/*====== Позже .mail-tel {    ====*/
+.mail-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 1799px;
+}
 
-/*===  font-size: 14px; ===*/
-/*=== line-height: 1.71;  ===*/
-/*===  letter-spacing: 0.03em;  ===*/
+.footer-black {
+  position: absolute;
+  width: 1600px;
+  height: 252px;
+  left: 0px;
+  top: 1628px;
 
-/*=== color: rgba(255, 255, 255, 0.6);  } ===*/
-/*=======   and позже =====*/
+  background: #2f303a;
+}
 
 /* =============== AND FUTTER ============= */
 
