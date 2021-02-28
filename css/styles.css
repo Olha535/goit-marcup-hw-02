@@ -64,6 +64,10 @@ body {
 .logo-web {
   color: var(--accent-color);
 }
+
+.current {
+  color: var(--accent-color);
+}
 /* =============== AND HEADER ================== */
 
 /* ================ COMPONENTS ================= */
@@ -75,7 +79,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .main-heading {
@@ -189,6 +193,20 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--accent-too-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* =========== And Portfolio ============== */
