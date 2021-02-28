@@ -2,6 +2,9 @@
   --main-font: Roboto, sans-serif;
   --secondari-font: Raleway, sans-serif;
   --accent-color: #2196f3;
+  --accent-text-color: #212121;
+  --accent-too-color: #757575;
+  --color-white: #ffffff;
 }
 
 body {
@@ -26,12 +29,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--accent-text-color);
 }
 
 .navigation-link:hover,
 .navigation-link:focus {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   color: var(--accent-color);
 }
 
@@ -40,12 +43,12 @@ body {
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--accent-too-color);
 }
 
 .tel-link:hover,
 .tel-link:focus {
-  background-color: #ffffff;
+  background-color: var(--color-white);
   color: var(--accent-color);
 }
 
@@ -55,11 +58,11 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-text-color);
 }
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* =============== AND HEADER ================== */
 
@@ -98,14 +101,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-text-color);
 }
 
 .features-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-too-color);
 }
 
 /* =============== AND FEATURES ================= */
@@ -116,7 +119,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-text-color);
 }
 
 .rush-team {
@@ -125,14 +128,14 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-text-color);
 }
 .profession {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-too-color);
 }
 
 /* =============== FUTTER ================= */
@@ -163,14 +166,14 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--accent-text-color);
+  background-color: var(--color-white);
 }
 
 .content-btn:hover,
 .content-btn:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .cards-list {
@@ -178,14 +181,14 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--accent-text-color);
 }
 
 .cards-item {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-too-color);
 }
 
 /* =========== And Portfolio ============== */
