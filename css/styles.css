@@ -22,6 +22,29 @@ body {
   font-style: normal;
 }
 
+button {
+  font-family: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
 /* =============== HEADER ================== */
 
 .navigation-link {
@@ -93,9 +116,9 @@ body {
   color: var(--color-white);
   background: #2f303a;
 }
-.navigation-link .link.current {
+/*---- .navigation-link .link.current {
   color: var(--accent-color);
-}
+} ---*/
 
 /* ================ AND COMPONENTS ============== */
 
